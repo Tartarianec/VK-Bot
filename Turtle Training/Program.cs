@@ -12,6 +12,7 @@ namespace Turtle_Training
         static void Main(string[] args)
         {
             GraphicsWindow.KeyDown += GraphicsWindow_KeyDown;
+            Turtle.PenUp();
             while (true)
             {
                 Turtle.Move(10);
