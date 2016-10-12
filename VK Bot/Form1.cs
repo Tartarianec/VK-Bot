@@ -36,9 +36,9 @@ namespace VK_Bot
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            "https://oauth.vk.com/authorize?client_id=1234567" + "&redirect_uri" = "https://oauth.vk.com/blank.html" + "&scope=1024" +
+            //"https://oauth.vk.com/authorize?client_id=1234567" + "&redirect_uri" = "https://oauth.vk.com/blank.html" + "&scope=1024" +
 
-            "&display=page" + "&response_type=token";
+            //"&display=page" + "&response_type=token";
         }
     }
 }
