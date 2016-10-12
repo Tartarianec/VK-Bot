@@ -36,6 +36,7 @@ namespace VK_Bot
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            webBrowser1.Navigate(String.Format("http://vk.com"));
             //"https://oauth.vk.com/authorize?client_id=1234567" + "&redirect_uri" = "https://oauth.vk.com/blank.html" + "&scope=1024" +
 
             //"&display=page" + "&response_type=token";
