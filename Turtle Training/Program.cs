@@ -13,10 +13,15 @@ namespace Turtle_Training
         {
             GraphicsWindow.KeyDown += GraphicsWindow_KeyDown;
             Turtle.PenUp();
+
+            GraphicsWindow.BrushColor = "Green";
+            var eat = Shapes.AddRectangle(10, 10);
+            Shapes.Move(eat, 200, 200);
             while (true)
             {
                 Turtle.Move(10);
             }
+                        
         }
 
         private static void GraphicsWindow_KeyDown()
