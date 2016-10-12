@@ -9,8 +9,7 @@ namespace Turtle_Training
 {
     class Program
     {
-        private static bool tmoove = true;
-
+        
         static void Main(string[] args)
         {
             GraphicsWindow.KeyDown += GraphicsWindow_KeyDown;
@@ -19,7 +18,7 @@ namespace Turtle_Training
             GraphicsWindow.BrushColor = "Green";
             var eat = Shapes.AddRectangle(10, 10);
             Shapes.Move(eat, 200, 200);
-            while (tmoove == true)
+            while (true)
             {
                 Turtle.Move(1);
             }
@@ -48,6 +47,7 @@ namespace Turtle_Training
             {
                 Environment.Exit(0);              
             }
+          
                
         }
     }
