@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK Bot", "VK Bot\VK Bot.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turtle Training", "Turtle Training\Turtle Training.csproj", "{D357D442-587C-40D1-8BB5-31E49E3E01A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsersibtime", "Parsersibtime\Parsersibtime.csproj", "{71BE3159-C5F1-4AB7-B090-D78491997172}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D357D442-587C-40D1-8BB5-31E49E3E01A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D357D442-587C-40D1-8BB5-31E49E3E01A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D357D442-587C-40D1-8BB5-31E49E3E01A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BE3159-C5F1-4AB7-B090-D78491997172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BE3159-C5F1-4AB7-B090-D78491997172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BE3159-C5F1-4AB7-B090-D78491997172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BE3159-C5F1-4AB7-B090-D78491997172}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
